@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "changelog": "git-changelog -t false -a 'Angular: User Panel'"
+    "changelog": "git-changelog -t false -a 'Angular: User Panel'",
+    "predeploy": "ng build --prod --base-href=/test-angular-user-panel/",
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d dist/test-angular-user-panel/"
   },
   "private": true,
   "dependencies": {
