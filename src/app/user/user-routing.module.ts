@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { PageUserHomeComponent } from './components/page-user-home/page-user-home.component';
-import { PageUserSettingsComponent } from './components/page-user-settings/page-user-settings.component';
-import { PageUserRemoveAccountComponent } from './components/page-user-remove-account/page-user-remove-account.component';
+import { PageUserHomeComponent } from './pages/page-user-home/page-user-home.component';
+import { PageUserSettingsComponent } from './pages/page-user-settings/page-user-settings.component';
+import { PageUserRemoveAccountComponent } from './pages/page-user-remove-account/page-user-remove-account.component';
 
 const routes: Routes = [
     {
@@ -23,7 +23,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class UserRoutingModule { }

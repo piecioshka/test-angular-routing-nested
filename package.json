@@ -1,5 +1,5 @@
 {
-  "name": "test-angular-user-panel",
+  "name": "test-angular-nested-routing",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,35 +8,33 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "changelog": "git-changelog -t false -a 'Angular: User Panel'",
-    "predeploy": "ng build --prod --base-href=/test-angular-user-panel/",
-    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d dist/test-angular-user-panel/"
+    "predeploy": "ng build --prod --base-href=/test-angular-nested-routing/",
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d dist/test-angular-nested-routing/"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^7.2.10",
-    "@angular/common": "^7.2.10",
-    "@angular/compiler": "^7.2.10",
-    "@angular/core": "^7.2.10",
-    "@angular/forms": "^7.2.10",
-    "@angular/platform-browser": "^7.2.10",
-    "@angular/platform-browser-dynamic": "^7.2.10",
-    "@angular/router": "^7.2.10",
-    "core-js": "^3.0.0",
-    "rxjs": "^6.4.0",
-    "tslib": "^1.9.0",
-    "zone.js": "^0.9.0"
+    "@angular/animations": "^8.0.3",
+    "@angular/common": "^8.0.3",
+    "@angular/compiler": "^8.0.3",
+    "@angular/core": "^8.0.3",
+    "@angular/forms": "^8.0.3",
+    "@angular/platform-browser": "^8.0.3",
+    "@angular/platform-browser-dynamic": "^8.0.3",
+    "@angular/router": "^8.0.3",
+    "core-js": "^3.1.4",
+    "rxjs": "^6.5.2",
+    "tslib": "^1.10.0",
+    "zone.js": "^0.9.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.13.6",
-    "@angular/cli": "^7.3.6",
-    "@angular/compiler-cli": "^7.2.10",
-    "@angular/language-service": "^7.2.10",
+    "@angular-devkit/build-angular": "^0.800.6",
+    "@angular/cli": "^8.0.6",
+    "@angular/compiler-cli": "^8.0.3",
+    "@angular/language-service": "^8.0.3",
     "@types/jasmine": "^3.3.13",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^11.11.6",
-    "codelyzer": "~4.5.0",
-    "git-changelog": "^1.1.2",
+    "@types/node": "^12.0.10",
+    "codelyzer": "^5.1.0",
     "jasmine-core": "^3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "^4.1.0",
@@ -45,8 +43,8 @@
     "karma-jasmine": "^2.0.1",
     "karma-jasmine-html-reporter": "^1.4.2",
     "protractor": "^6.0.0",
-    "ts-node": "^8.0.3",
-    "tslint": "^5.14.0",
-    "typescript": "^3.3.4000"
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.4.5"
   }
 }
