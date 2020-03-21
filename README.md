@@ -4,7 +4,7 @@
 
 ## Demo 🎉
 
-* <https://piecioshka.github.io/test-angular-nested-routing/>
+<https://piecioshka.github.io/test-angular-nested-routing/>
 
 ## Features
 
