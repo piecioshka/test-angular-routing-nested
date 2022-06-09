@@ -1,10 +1,10 @@
-# test-angular-nested-routing
+# test-angular-routing-nested
 
 :ledger: Test app with nested routing in Angular.
 
 ## Demo 🎉
 
-<https://piecioshka.github.io/test-angular-nested-routing/>
+<https://piecioshka.github.io/test-angular-routing-nested/>
 
 ## Features
 

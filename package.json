@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "test-angular-nested-routing",
+  "name": "test-angular-routing-nested",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -10,8 +10,8 @@
     "test:ci": "ng test --watch false --browsers ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "predeploy": "ng build --base-href=/test-angular-nested-routing/",
-    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d dist/test-angular-nested-routing/"
+    "predeploy": "ng build --base-href=/test-angular-routing-nested/",
+    "deploy": "cross-env NODE_DEBUG=gh-pages gh-pages -d dist/test-angular-routing-nested/"
   },
   "dependencies": {
     "@angular/animations": "^14.0.1",
