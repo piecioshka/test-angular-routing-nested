@@ -2,7 +2,7 @@
 
 :ledger: Test app with nested routing in Angular.
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/test-angular-routing-nested/>
 
