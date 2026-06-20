@@ -11,3 +11,7 @@
 * :white_check_mark: Routing
 * :white_check_mark: Lazy loading User module
 * :white_check_mark: Child Routes in User module
+
+## License
+
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
